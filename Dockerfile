@@ -16,7 +16,7 @@ RUN add-apt-repository ppa:deadsnakes/ppa \
 
 # install common python packages
 ADD ./project/requirements.txt /tmp
-RUN pip install pip setuptools -U && pip install -r /tmp/requirements.txt
+# RUN pip install pip setuptools -U && pip install -r /tmp/requirements.txt
 
 # set working directory
 
